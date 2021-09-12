@@ -16,3 +16,9 @@ The program can be run in command terminal using python3.
 
 Syntax :
 python 1D_spring_analysis.py
+
+Necessary modules for running :
+1) numpy
+
+Required files :
+1) spring.py (already in the package)
