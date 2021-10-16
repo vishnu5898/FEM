@@ -15,7 +15,11 @@ Output of this program is :
 The program can be run in command terminal using python3.
 
 Syntax :
-python 1D_spring_analysis.py
+
+Run each commands listed in commandline
+
+1) python -m pip install -r requirements.txt
+2) python 1D_spring_analysis.py
 
 Necessary modules for running :
 1) numpy
