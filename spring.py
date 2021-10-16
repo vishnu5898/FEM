@@ -190,7 +190,7 @@ def get_inputs():
     n_elements = int(input("Total no. elements:\n"))
     count = 0
     while(count<n_elements):
-        print("Stiffness of element", count+1, ":")
+        print("Stiffness of element", count+1, "(in SI unit):")
         elements.append(int(input()))    
         print("Nodes of element", count+1, ": (Seperate nodes by space)")
         a = input()
@@ -228,7 +228,7 @@ def get_boundary_conditions():
     count = 0
     n_force = int(input("Total no. of force applied :\n"))
     while(count<n_force):
-        print("Enter force ", count+1, ":")
+        print("Enter force ", count+1, "(in Newton):")
         force_list.append(int(input()))
         print("Enter node of force", count+1, ":")
         force_node_list.append(int(input()))
