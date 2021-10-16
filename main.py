@@ -32,7 +32,7 @@ fixed_node_list,force_lists,force_node_lists = get_boundary_conditions()
 
 A = solve_no_dis(K,fixed_node_list,force_lists,force_node_lists)
 
-# Displacement matrix and force matrix are return in the form of tuple
+# Displacement matrix and force matrix are returned in the form of tuple
 
 
 
